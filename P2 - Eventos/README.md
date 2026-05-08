@@ -68,8 +68,7 @@ Además, incluir:
 
 ### Vistas
 
-4. VW_Predios
-Vista que devuelve los predios cuyo nombre comienza con la letra "L".
+4. VW_Predios: Vista que devuelve los predios cuyo nombre comienza con la letra "L".
 
 | nombre_predio | nombre_ciudad | nombre_pais |
 | :------------ | :------------ | :---------- |
@@ -77,16 +76,14 @@ Vista que devuelve los predios cuyo nombre comienza con la letra "L".
 | La Noche      | Rosario       | Argentina   |
 | La Estrella   | Cordoba       | Argentina   |
 
-5. VW_Feriashoy
-Vista que muestra ferias/exposiciones con fecha entre `01/01/2024` y hoy.
+5. VW_Feriashoy: Vista que muestra ferias/exposiciones con fecha entre `01/01/2024` y hoy.
 
 | nombre_feria                                  | rubro | fecha_apertura | fecha_cierre |
 | :-------------------------------------------- | :---- | :------------- | :----------- |
 
 (Sin resultados en el rango de fechas actual)
 
-6. VW_Predios2 (con insert)
-Vista con `nombre_predio`, `id_ciudad` y `superficie`.
+6. VW_Predios2 (con insert): Vista con `nombre_predio`, `id_ciudad` y `superficie`.
 
 | nombre_predio     | id_ciudad | superficie |
 | :---------------- | :-------: | :--------: |
